@@ -1,0 +1,27 @@
+{
+  "name": "weather-icons",
+  "version": "0.0.1",
+  "description": "Weather icons font designed specialy for the Open Weather Map API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "Open",
+    "weather",
+    "map",
+    "api",
+    "font",
+    "icon",
+    "symbols",
+    "owfont",
+    "font-awesome"
+  ],
+  "author": "Ivan Vilanculo",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.3.3",
+    "webpack-webfont": "0.0.1-alpha.7"
+  }
+}
