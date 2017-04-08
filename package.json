@@ -1,5 +1,5 @@
 {
-  "name": "weather-icons",
+  "name": "open-weather-icons",
   "version": "0.0.1",
   "description": "Weather icons font designed specialy for the Open Weather Map API",
   "main": "index.js",
