@@ -1,6 +1,6 @@
 {
   "name": "open-weather-icons",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Weather icons font designed specialy for the Open Weather Map API",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,10 @@
   ],
   "author": "Ivan Vilanculo",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/isneezy/open-weather-icons.git"
+  },
   "devDependencies": {
     "webpack": "^2.3.3",
     "webpack-webfont": "0.0.1-alpha.7"
