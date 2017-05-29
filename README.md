@@ -8,7 +8,7 @@ Place the contents from fonts and css folder on your
 project, assuming that your the fonts are located 
 ../fonts/ from css directory
 
-The icons are displayed using the `i` element and adding the base class `owi` and the icon class that you want, such as a `wi-01d`
+The icons are displayed using the `i` element and adding the base class `owi` and the icon class that you want, such as a `owi owi-01d`
 the code `01d` is the icon code that you get from the [Open Weather Map](https://openweathermap.org/api).
 
 ## Credits
