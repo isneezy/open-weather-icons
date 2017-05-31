@@ -64,12 +64,26 @@ module.exports = {
             fontName: 'WeatherIcons',
             cssTemplateClassName: "owi",
             css: true,
-            cssFormat: 'sss',
+            cssFormat: 'css',
             template: path.resolve(__dirname, 'src/templates/open-weather-icons.css.njk'),
             cssTemplateFontPath: '../fonts/',
             dest: {
                 fontsDir: path.resolve(__dirname, 'dist/fonts'),
                 stylesDir: path.resolve(__dirname, 'dist/css'),
+                css: path.resolve(__dirname, 'src/scss/_weather-icons.css'),
+            }
+        }),
+        new WebFontPlugin({
+            files: path.resolve(__dirname, 'src/svg/*.svg'),
+            fontName: 'WeatherIcons',
+            cssTemplateClassName: "owi",
+            css: true,
+            cssFormat: 'scss',
+            template: path.resolve(__dirname, 'src/templates/open-weather-icons.scss.njk'),
+            cssTemplateFontPath: '../fonts/',
+            dest: {
+                fontsDir: path.resolve(__dirname, 'fonts'),
+                stylesDir: path.resolve(__dirname, 'scss'),
                 css: path.resolve(__dirname, 'src/scss/_weather-icons.scss'),
             }
         })
