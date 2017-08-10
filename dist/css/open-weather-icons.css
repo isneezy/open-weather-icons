@@ -23,9 +23,9 @@
  **/
 
 @font-face {
-    font-family: WeatherIcons;
-    src: url("../fonts/WeatherIcons.eot");
-    src: url("../fonts/WeatherIcons.eot?#iefix") format("embedded-opentype"), url("../fonts/WeatherIcons.woff2") format("woff2"), url("../fonts/WeatherIcons.woff") format("woff"), url("../fonts/WeatherIcons.ttf") format("truetype"), url("../fonts/WeatherIcons.svg#WeatherIcons") format("svg");
+    font-family: OpenWeatherIcons;
+    src: url("../fonts/OpenWeatherIcons.eot");
+    src: url("../fonts/OpenWeatherIcons.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenWeatherIcons.woff2") format("woff2"), url("../fonts/OpenWeatherIcons.woff") format("woff"), url("../fonts/OpenWeatherIcons.ttf") format("truetype"), url("../fonts/OpenWeatherIcons.svg#OpenWeatherIcons") format("svg");
     font-style: normal;
     font-weight: 400;
 }
@@ -34,7 +34,7 @@
     display: inline-block;
     transform: translate(0, 0);
     text-rendering: auto;
-    font: normal normal 400 14px/1 WeatherIcons;
+    font: normal normal 400 14px/1 OpenWeatherIcons;
     font-size: inherit;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -92,11 +92,11 @@
 }
 
 .owi-04d::before {
-    content: "\ea08";
+    content: "\ea07";
 }
 
 .owi-04n::before {
-    content: "\ea07";
+    content: "\ea08";
 }
 
 .owi-09d::before {
@@ -108,11 +108,11 @@
 }
 
 .owi-10d::before {
-    content: "\ea0c";
+    content: "\ea0b";
 }
 
 .owi-10n::before {
-    content: "\ea0b";
+    content: "\ea0c";
 }
 
 .owi-11d::before {
@@ -123,18 +123,22 @@
     content: "\ea0e";
 }
 
-.owi-13d::before {
+.owi-1232n::before {
     content: "\ea0f";
 }
 
-.owi-13n::before {
+.owi-13d::before {
     content: "\ea10";
 }
 
-.owi-20d::before {
+.owi-13n::before {
     content: "\ea11";
 }
 
-.owi-50d::before {
+.owi-20d::before {
     content: "\ea12";
+}
+
+.owi-50d::before {
+    content: "\ea13";
 }
