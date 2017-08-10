@@ -1,5 +1,5 @@
-$owi-01d: "\ea01";
-$owi-01n: "\ea02";
+$owi-01d: "\ea02";
+$owi-01n: "\ea01";
 $owi-02d: "\ea03";
 $owi-02n: "\ea04";
 $owi-03d: "\ea05";
@@ -12,10 +12,11 @@ $owi-10d: "\ea0b";
 $owi-10n: "\ea0c";
 $owi-11d: "\ea0d";
 $owi-11n: "\ea0e";
-$owi-13d: "\ea0f";
-$owi-13n: "\ea10";
-$owi-20d: "\ea11";
-$owi-50d: "\ea12";
+$owi-1232n: "\ea0f";
+$owi-13d: "\ea10";
+$owi-13n: "\ea11";
+$owi-20d: "\ea12";
+$owi-50d: "\ea13";
 
 @font-face {
     font-family: WeatherIcons;
@@ -67,11 +68,11 @@ $owi-50d: "\ea12";
 }
 
 .owi-01d::before {
-    content: "\ea01";
+    content: "\ea02";
 }
 
 .owi-01n::before {
-    content: "\ea02";
+    content: "\ea01";
 }
 
 .owi-02d::before {
@@ -122,18 +123,22 @@ $owi-50d: "\ea12";
     content: "\ea0e";
 }
 
-.owi-13d::before {
+.owi-1232n::before {
     content: "\ea0f";
 }
 
-.owi-13n::before {
+.owi-13d::before {
     content: "\ea10";
 }
 
-.owi-20d::before {
+.owi-13n::before {
     content: "\ea11";
 }
 
-.owi-50d::before {
+.owi-20d::before {
     content: "\ea12";
+}
+
+.owi-50d::before {
+    content: "\ea13";
 }
