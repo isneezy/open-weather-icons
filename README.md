@@ -1,15 +1,15 @@
 # Open Weather Icons
 
-Weather icon font and css themed icons specialy created for [Open Weather Map Api](https://openweathermap.org/api), redy to be used on any project.
+Weather icon font and css themed icons specialy created for [Open Weather Map Api](https://openweathermap.org/api), ready to be used in any project.
 
 
 ## Basic Usage
-Place the contents from fonts and css folder on your
-project, assuming that your the fonts are located 
-../fonts/ from css directory
+Place the contents from fonts and css folder in your
+project, assuming that your fonts are located under a
+`../fonts/` path relatively to your css directory.
 
-The icons are displayed using the `i` element and adding the base class `owi` and the icon class that you want, such as a `owi owi-01d`
-the code `01d` is the icon code that you get from the [Open Weather Map](https://openweathermap.org/api).
+The icons are displayed by using the `i` element and adding the base class `owi` and the icon class that you want, such as a `owi owi-01d`
+the code `01d` is the icon code that you get from [Open Weather Map](https://openweathermap.org/api).
 
 ## Credits
 
