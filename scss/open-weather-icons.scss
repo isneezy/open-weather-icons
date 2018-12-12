@@ -15,8 +15,8 @@ $owi-11n: "\ea0e";
 $owi-1232n: "\ea0f";
 $owi-13d: "\ea10";
 $owi-13n: "\ea11";
-$owi-20d: "\ea12";
-$owi-50d: "\ea13";
+$owi-50d: "\ea12";
+$owi-50n: "\ea13";
 
 @font-face {
     font-family: WeatherIcons;
@@ -135,10 +135,10 @@ $owi-50d: "\ea13";
     content: "\ea11";
 }
 
-.owi-20d::before {
+.owi-50d::before {
     content: "\ea12";
 }
 
-.owi-50d::before {
+.owi-50n::before {
     content: "\ea13";
 }

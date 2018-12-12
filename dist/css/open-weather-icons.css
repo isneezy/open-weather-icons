@@ -76,11 +76,11 @@
 }
 
 .owi-02d::before {
-    content: "\ea03";
+    content: "\ea04";
 }
 
 .owi-02n::before {
-    content: "\ea04";
+    content: "\ea03";
 }
 
 .owi-03d::before {
@@ -132,13 +132,13 @@
 }
 
 .owi-13n::before {
-    content: "\ea11";
-}
-
-.owi-20d::before {
     content: "\ea12";
 }
 
 .owi-50d::before {
+    content: "\ea11";
+}
+
+.owi-50n::before {
     content: "\ea13";
 }
